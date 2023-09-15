@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import HousingNotFound from "../components/HousingNotFound";
 import Accueil from "../pages/Accueil";
 import Apropos from "../pages/Apropos";
@@ -9,7 +9,8 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Accueil />} />
+        <Route path="/" element={<Navigate replace to="/accueil" />} />
+        <Route path="/accueil" element={<Accueil />} />
         <Route path="/apropos" element={<Apropos />} />
         <Route path="*" element={<Erreur />} />
         <Route path="/logement/:id" element={<Logement />} />
