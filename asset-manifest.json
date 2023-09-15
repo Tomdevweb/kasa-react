@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kasa-react/static/css/main.4a06ef80.css",
+    "main.js": "/kasa-react/static/js/main.7f16edfa.js",
+    "static/media/aproposIMG.png": "/kasa-react/static/media/aproposIMG.59eff0b9c0a4f903ec73.png",
+    "static/media/IMG.png": "/kasa-react/static/media/IMG.a5ee757294d759207123.png",
+    "static/media/LOGO(1).svg": "/kasa-react/static/media/LOGO(1).bb1c78bdbf97911cf6044e13e0c4f670.svg",
+    "index.html": "/kasa-react/index.html",
+    "static/media/Vector.svg": "/kasa-react/static/media/Vector.4a0d3650fa868343d6697607ac04673f.svg",
+    "static/media/transparent-rating-icon.svg": "/kasa-react/static/media/transparent-rating-icon.86e47441d7cad86bfed5b2506d3c55c7.svg",
+    "static/media/colored-rating-icon.svg": "/kasa-react/static/media/colored-rating-icon.e0e32bd47ca1d29402e5265a1dc1a3f2.svg",
+    "main.4a06ef80.css.map": "/kasa-react/static/css/main.4a06ef80.css.map",
+    "main.7f16edfa.js.map": "/kasa-react/static/js/main.7f16edfa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a06ef80.css",
+    "static/js/main.7f16edfa.js"
+  ]
+}
