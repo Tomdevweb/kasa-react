@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import HousingNotFound from "../components/HousingNotFound";
 import Accueil from "../pages/Accueil";
 import Apropos from "../pages/Apropos";
@@ -7,7 +7,7 @@ import Logement from "../pages/Logement/Logement";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate replace to="/accueil" />} />
         <Route path="/accueil" element={<Accueil />} />
@@ -16,7 +16,7 @@ const Router = () => {
         <Route path="/logement/:id" element={<Logement />} />
         <Route path="/logement/not-found" element={<HousingNotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
