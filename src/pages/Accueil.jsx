@@ -1,9 +1,8 @@
-import React from "react";
-import Header from "../components/Header";
-import Banner from "../components/Banner";
-import CardsList from "../components/CardsList";
 import bannerImg from "../assets/images/IMG.png";
-import Footer from "../components/Footer";
+import Banner from "../components/Banner/Banner";
+import CardsList from "../components/CardsList/CardsList";
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 
 const Accueil = () => {
   return (

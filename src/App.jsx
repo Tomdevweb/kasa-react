@@ -1,12 +1,6 @@
 import Router from "./components/Router";
-import "./styles/App.css";
+import "./App.css";
 
-const App = () => {
-  return (
-    <>
-      <Router />
-    </>
-  );
-};
+const App = () => <Router />;
 
 export default App;

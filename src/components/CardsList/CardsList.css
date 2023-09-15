@@ -6,8 +6,15 @@
   flex-wrap: wrap;
   width: 97%;
   min-height: 100%;
-  padding: 50px 50px;
-  margin: 2rem auto 16rem;
+  padding: 50px;
+  margin: 2rem;
   border-radius: 25px;
   background-color: #f6f6f6;
+}
+
+@media only screen and (max-width: 960px) {
+  .cards-container {
+    padding: 0;
+    background-color: #fff;
+  }
 }

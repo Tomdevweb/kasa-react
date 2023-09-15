@@ -6,10 +6,25 @@
   height: 210px;
   border-radius: 25px;
   background-position: 25% 50%;
+  background-size: cover;
 }
 
 h1 {
   color: #ffffff;
   font-size: 48px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 125px;
+  }
+
+  .banner-about {
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }

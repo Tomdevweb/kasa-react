@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import "../styles/Collapse.css";
-import icon from "../assets/images/Vector.svg";
+import { useState } from "react";
+import icon from "../../assets/images/Vector.svg";
+import "./Collapse.css";
+const iconInitialState = {
+  transform: "rotate(180deg)",
+};
 
 const Collapse = ({ title, children }) => {
-  const iconInitialState = {
-    transform: "rotate(180deg)",
-  };
   const [isOpen, setIsOpen] = useState(false);
   const [iconStyle, setIconStyle] = useState(iconInitialState);
 
   const toggleCollapse = () => {
     setIsOpen(!isOpen);
 
-    setIconStyle(isOpen ? iconInitialState : { transform: "rotate(0deg)", transition: "all 0.25s linear" });
+    setIconStyle(isOpen ? iconInitialState : { transform: "rotate(0deg)", transition: "all 0.17s linear" });
   };
 
   return (

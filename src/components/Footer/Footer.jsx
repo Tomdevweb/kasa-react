@@ -1,10 +1,9 @@
-import React from "react";
-import Logo from "../assets/images/LOGO.png";
-import "../styles/Footer.css";
+import Logo from "../../assets/images/LOGO.png";
+import "./Footer.css";
+
+const currentYear = new Date().getFullYear();
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="footer-container">
       <img src={Logo} alt="Logo" />
