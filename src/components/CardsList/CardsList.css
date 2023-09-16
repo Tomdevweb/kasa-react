@@ -11,7 +11,7 @@
   background-color: #f6f6f6;
 }
 
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1230px) {
   .cards-container {
     gap: 25px;
     padding: 25px 15px;
