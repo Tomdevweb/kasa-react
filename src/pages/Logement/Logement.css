@@ -1,7 +1,5 @@
 .housing-main {
-  max-width: 95%;
   margin: 0 60px;
-  position: relative;
 }
 .collapse {
   width: 100%;
@@ -67,7 +65,7 @@
   list-style: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .housing-main {
     margin: 0 20px;
   }

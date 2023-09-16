@@ -15,7 +15,7 @@ h1 {
   font-weight: 500;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .banner {
     height: 125px;
   }

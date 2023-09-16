@@ -15,7 +15,7 @@
   margin-top: 8rem;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .error-container {
     margin-top: 50px;
   }

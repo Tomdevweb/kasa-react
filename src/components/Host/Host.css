@@ -26,7 +26,7 @@
   text-align: end;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .housing-host {
     flex-direction: row-reverse;
     justify-content: space-between;

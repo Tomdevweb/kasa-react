@@ -21,7 +21,7 @@ const Logement = () => {
     }
   }, [housing, navigate]);
 
-  // Vu que useEffect est asynchrone, on gere le cas ou il continu a lire le code et donc chercher la suite
+  // Vu que useEffect est asynchrone, on gere le cas ou il continu a lire le code et donc cherche la suite
   // Barriere de sécurité
   if (!housing) {
     return;
@@ -37,7 +37,6 @@ const Logement = () => {
     location,
     host: { name, picture },
   } = housing;
-  // equivaut a const pictures = housing.pictures
 
   const [firstName, lastName] = name.split(" ");
 
