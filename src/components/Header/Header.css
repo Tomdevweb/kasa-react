@@ -23,8 +23,12 @@
   border-bottom: 1px solid transparent;
 }
 
-a:hover {
-  border-bottom: 1px solid #ff6060;
+.active {
+  text-decoration: underline !important;
+}
+
+.inactive {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {

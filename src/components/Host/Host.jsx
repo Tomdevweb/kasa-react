@@ -1,5 +1,5 @@
 import "./Host.css";
-import Stars from "./components/Stars";
+import Stars from "../Stars";
 
 const Host = ({ rating, firstName, lastName, picture }) => {
   return (

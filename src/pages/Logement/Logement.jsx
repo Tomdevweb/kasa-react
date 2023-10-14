@@ -16,7 +16,7 @@ const Logement = () => {
 
   useEffect(() => {
     if (!housing) {
-      navigate("/logement/not-found");
+      navigate("/404");
       return;
     }
   }, [housing, navigate]);
