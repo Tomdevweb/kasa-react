@@ -5,6 +5,7 @@ import Header from "../../components/Header/Header";
 import ItemsData from "../../data/data.json";
 import Cards from "../../components/Cards/Cards";
 import "./Accueil.css";
+
 const Accueil = () => {
   return (
     <>
